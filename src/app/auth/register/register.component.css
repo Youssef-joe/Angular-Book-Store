@@ -1,0 +1,17 @@
+section {
+    margin: 20px;
+    padding: 10px;
+    height: 80vh;
+}
+input {
+    padding: 10px;
+}
+
+
+.color {
+    color: #0C938C;
+}
+
+.bg-color {
+    background-color: #0C938C;
+}

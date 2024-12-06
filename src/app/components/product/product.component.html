@@ -1,0 +1,9 @@
+<div *ngIf="products">
+    <h1> {{products.title}} </h1>
+    <img [src]="products.img" alt="">
+    <p> {{products.author}} </p>
+</div>
+
+<div *ngIf="!products">
+    <p>Loading Product Details....</p>
+</div>
